@@ -1,0 +1,13 @@
+services:
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: notifications-frontend
+
+    restart: always
+
+    ports:
+      - "3000:80"

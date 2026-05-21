@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 const pages = [
     // { name: 'Главная', path: '/' },
     { name: 'Отправить', path: '/send' },

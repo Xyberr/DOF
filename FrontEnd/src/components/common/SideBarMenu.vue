@@ -1,9 +1,9 @@
-<script setup>
+<script setup lang="ts">
 import Button from 'primevue/button';
 import Drawer from 'primevue/drawer';
 import { ref } from 'vue';
-import SideBarLinks from './SideBarLinks.vue';
 import LogOutButton from './LogOutButton.vue';
+import SideBarLinks from './SideBarLinks.vue';
 
 const visible = ref(false);
 </script>

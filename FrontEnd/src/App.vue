@@ -3,8 +3,8 @@ import { Toast } from 'primevue';
 import { RouterView } from 'vue-router';
 import { useToast } from 'primevue'
 import { setToast } from './toastService'
-import SideBarMenu from './components/common/SideBarMenu.vue';
 import { useAuthStore } from './stores/auth';
+import SideBarMenu from './components/common/SideBarMenu.vue';
 
 const toast = useToast()
 
